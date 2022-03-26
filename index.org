@@ -7,5 +7,4 @@
 
 [[https://janmcgarry.github.io/Q.pdf][Q-construction. Dévissage and applications]], notes for a student reading seminar on K-theory at the University of Copenhagen.
 
-[[http://revistes.iec.cat/index.php/reports/article/view/149536/147196][Homotopical realizations of infinity groupoids]], Reports@SCM 6 (2021), 49–57;
-DOI:10.2436/20.2002.02.27.
+[[http://revistes.iec.cat/index.php/reports/article/view/149536/147196][Homotopical realizations of infinity groupoids]], Reports@SCM 6 (2021), 49–57.
