@@ -1,8 +1,7 @@
 #+TITLE: Jan McGarry Furriol
-#+AUTHOR:
 #+EXPORT_FILE_NAME:/home/janmcgarry/Dropbox/git/janmcgarry.github.io/index.html
 #+EMAIL: mcgarryjan@gmail.com
-#+OPTIONS: timestamp:nil
+#+OPTIONS: author:nil timestamp:nil
 
 [[https://janmcgarry.github.io/syn.pdf][Synthetic spectra]], notes for the course Topics in Algebraic Topology at the University of Copengagen.
 
