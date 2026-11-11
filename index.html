@@ -28,9 +28,9 @@
 
       .profile-photo {
         display: block;
-        width: 140px;
+        width: 170px;
         height: auto;
-        flex: 0 0 140px;
+        flex: 0 0 170px;
         margin-top: 0.25em;
         margin-left: -1.75em;
         border: 1px solid #e8e8e5;
@@ -71,6 +71,8 @@
         }
 
         .profile-photo {
+          width: min(170px, 60vw);
+          flex-basis: auto;
           margin-top: 0;
           margin-left: 0;
         }
