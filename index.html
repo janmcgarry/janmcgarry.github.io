@@ -13,59 +13,72 @@
         line-height: 1.6;
         color: #333;
       }
+
       #content {
         max-width: 60em;
         margin: auto;
         padding: 2em 1em;
       }
+
       .page-layout {
         display: flex;
         align-items: flex-start;
-        gap: 2em;
+        gap: 1.8em;
       }
+
       .profile-photo {
         display: block;
-        width: 150px;
+        width: 140px;
         height: auto;
-        flex: 0 0 150px;
-        margin-top: 0.35em;
-        margin-left: -1.5em;
+        flex: 0 0 140px;
+        margin-top: 0.25em;
+        margin-left: -1.75em;
         border: 1px solid #e8e8e5;
         border-radius: 4px;
       }
+
       .main-content {
         flex: 1;
         min-width: 0;
       }
+
       h1 {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
         text-align: left;
         margin-top: 0;
         margin-bottom: 0.5em;
       }
+
       h2 {
         font-size: 1.15rem;
-        margin-top: 1.5em;
+        margin-top: 1.4em;
       }
+
       a {
         color: #0066cc;
         text-decoration: none;
       }
+
       a:hover {
         text-decoration: underline;
       }
+
       @media (max-width: 600px) {
         .page-layout {
           flex-direction: column;
           align-items: center;
+          gap: 1em;
         }
+
         .profile-photo {
           margin-top: 0;
           margin-left: 0;
         }
+
         .main-content {
           width: 100%;
         }
+
         h1 {
           text-align: center;
         }
