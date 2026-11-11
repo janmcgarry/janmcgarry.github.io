@@ -4,95 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jan McGarry Furriol</title>
-</head> 
 
-<style>
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-  }
-  #content {
-    max-width: 60em;
-    margin: auto;
-    padding: 2em 1em;
-  }
-  h1 {
-    text-align: center;
-    margin-bottom: 0.5em;
-  }
-  h2 {
-    margin-top: 1.5em;
-  }
-  a {
-    color: #0066cc;
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-    .profile-header {
-  display: flex;
-  align-items: flex-start;
-  gap: 2em;          /* space between photo and name */
-  margin-bottom: 2em;
-}
-
-.profile-header h1 {
-  text-align: left;
-  margin-top: 0;
-}
-
-.profile-photo {
-  width: 160px;
-  height: 160px;
-  object-fit: cover;
-  flex-shrink: 0;
-}
-
-@media (max-width: 600px) {
-  .profile-header {
-    flex-direction: column;
-    align-items: center;
-    gap: 1em;
-  }
-
-  .profile-header h1 {
-    text-align: center;
-  }
-}
-</style>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+      }
+      #content {
+        max-width: 60em;
+        margin: auto;
+        padding: 2em 1em;
+      }
+      .page-layout {
+        display: flex;
+        align-items: flex-start;
+        gap: 2em;
+      }
+      .profile-photo {
+        display: block;
+        width: 160px;
+        height: auto;
+        flex: 0 0 160px;
+      }
+      .main-content {
+        flex: 1;
+        min-width: 0;
+      }
+      h1 {
+        text-align: left;
+        margin-top: 0;
+        margin-bottom: 0.5em;
+      }
+      h2 {
+        margin-top: 1.5em;
+      }
+      a {
+        color: #0066cc;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      @media (max-width: 600px) {
+        .page-layout {
+          flex-direction: column;
+          align-items: center;
+        }
+        .main-content {
+          width: 100%;
+        }
+        h1 {
+          text-align: center;
+        }
+      }
+    </style>
 </head>
 <body>
-<div id="content" class="content">
+<div id="content">
+  <div class="page-layout">
+    <img class="profile-photo" src="picture.jpg" alt="Jan McGarry Furriol">
 
-<div class="profile-header">
-  <img class="profile-photo" src="picture.jpg" alt="Jan McGarry Furriol">
-  <h1 class="title">Jan McGarry Furriol</h1>
-</div>
-    
-<section>
-  <h2>
-      Preprints
-  </h2>  
-    <p>
-        Rational characteristic classes of bundles with fibre a product of spheres (<a href="https://arxiv.org/abs/2604.27948"> arXiv </a>)
-    </p>
-</section>  
+    <main class="main-content">
+      <h1>Jan McGarry Furriol</h1>
 
-<section>
-  <h2> 
-      Other writing
-  </h2>
-    <p>
-        <a href="https://janmcgarry.github.io/MSc_JanMcGarryFurriol.pdf">Abelianizations of mapping class groups</a>, Master Thesis at the University of Copenhagen, supervised by S&oslash;ren Galatius.
-    </p>
-    <p>
-        <a href="https://janmcgarry.github.io.joaojan.pdf">A conjecture by Galatius and Randal-Williams</a>, report for a project in 2021 on the work of Burklund, Hahn and Senger, joint with Jo&atilde;o Lobo Fernandes, supervised by S&oslash;ren Galatius.
-    <p>
-        <a href="https://janmcgarry.github.io/syn.pdf">Synthetic spectra</a>, notes from 2021 for the course Topics in Algebraic Topology at the University of Copenhagen.
-    </p>
-</section>
+      <section>
+        <h2>Preprints</h2>
+        <p>
+          Rational characteristic classes of bundles with fibre a product of spheres (<a href="https://arxiv.org/abs/2604.27948">arXiv</a>)
+        </p>
+      </section>
+
+      <section>
+        <h2>Other writing</h2>
+        <p>
+          <a href="https://janmcgarry.github.io/MSc_JanMcGarryFurriol.pdf">Abelianizations of mapping class groups</a>, Master Thesis at the University of Copenhagen, supervised by S&oslash;ren Galatius.
+        </p>
+        <p>
+          <a href="https://janmcgarry.github.io.joaojan.pdf">A conjecture by Galatius and Randal-Williams</a>, report for a project in 2021 on the work of Burklund, Hahn and Senger, joint with Jo&atilde;o Lobo Fernandes, supervised by S&oslash;ren Galatius.
+        </p>
+        <p>
+          <a href="https://janmcgarry.github.io/syn.pdf">Synthetic spectra</a>, notes from 2021 for the course Topics in Algebraic Topology at the University of Copenhagen.
+        </p>
+      </section>
+    </main>
+  </div>
 </div>
 </body>
 </html>
