@@ -17,7 +17,7 @@
       #content {
         max-width: 60em;
         margin: auto;
-        padding: 2em 1em;
+        padding: clamp(4rem, 12vh, 8rem) 1em 2em;
       }
 
       .page-layout {
@@ -66,6 +66,10 @@
       }
 
       @media (max-width: 600px) {
+        #content {
+          padding-top: 3rem;
+        }
+
         .page-layout {
           flex-direction: column;
           align-items: center;
